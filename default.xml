@@ -4,6 +4,10 @@
            fetch="git://android.git.kernel.org/"
            review="review.source.android.com" />
 
+  <remote name="linaro-android"
+          fetch="git://android.git.linaro.org/"
+          review="review.android.git.linaro.org" />
+
   <remote  name="github"
            fetch="git://github.com/"
            review="review.cyanogenmod.com" />
@@ -103,6 +107,8 @@
   <project path="device/semc/zeus" name="CyanogenMod/android_device_semc_zeus" />
   <project path="device/zte/blade" name="CyanogenMod/android_device_zte_blade" />
   <project path="device/zte/v9" name="CyanogenMod/android_device_zte_v9" />
+  <project path="device/sola/pandaboard" name="sola-dolphin1/android_device_sola_pandaboard" />
+  <project name="device/ti/proprietary-open" remote="linaro-android" revision="b5673fc064d28588e840f4120ff6d8acee17656e"/>
   <project path="external/alsa-lib" name="CyanogenMod/android_external_alsa-lib" />
   <project path="external/alsa-utils" name="CyanogenMod/android_external_alsa-utils" />
   <project path="external/apache-http" name="CyanogenMod/android_external_apache-http" />
